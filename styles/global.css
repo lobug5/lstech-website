@@ -1,6 +1,9 @@
 :root {
   --color-pink-primary: #D8528F;
   --color-background-primary: #fff;
+  --color-link-primary: hwb(340 78% 3%);
+  --color-menu-hover: #8b395d;
+  --color-top-container: #f5f5f5;
 }
 
 * {
@@ -23,21 +26,34 @@ h1 {
   font-size: 2rem;
 }
 
+h2, h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2%;
+  padding-bottom: 1%;
+}
+
+h4 {
+  padding-top: 2%;
+  color: var(--color-menu-hover);
+}
+
 .headerItems {
   width: 100%;
-  heigth: auto;
+  height: auto;
   display: flex;
 }
 
 .logoPosition {
   width: auto;
-  heigth: auto;
+  height: auto;
   padding: 2%;
 }
 
-.logoProperty {
+.logoStyle {
   width: 30%;
-  heigth: 30%;
+  height: auto;
 }
 
 .menu {
@@ -56,21 +72,22 @@ h1 {
   display: inline-block;
   text-decoration: none;
   font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.menu ul li a:hover {
+  color: var(--color-menu-hover);
+  border-bottom: solid 2px var(--color-menu-hover);
 }
 
 .topContainer {
   width: 100%;
   background-color: var(--color-pink-primary);
-  color: #f5f5f5;
+  color: var(--color-top-container);
 }
 
-.titleProperty {
+.titleStyle {
   color: var(--color-pink-primary);
-}
-
-.flexContent {
-  width: 100%;
-  display: flex;
 }
 
 .textPosition{
@@ -78,21 +95,61 @@ h1 {
   padding-bottom: 2%;
 }
 
-.texProperty {
+.textStyle {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.25rem;
   padding-left: 2%;
-  font-heigth: 1rem;
-  font-weigth: 500;
+  line-height: 1.5rem;
+  font-weight: 500;
 }
 
 .imagePosition {
   width: 100%;
-  heigth: auto;
+  height: auto;
 }
 
-.imageProperty{
+.imageStyle{
   width: 100%;
+}
+
+.textContentStyle {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.subtitleStyle {
+  color: var(--color-menu-hover);
+}
+
+.centerContainerPosition {
+  width: 100%;
+  display: flex;
+  padding-bottom: 2%;
+}
+
+.boxContainerStyle {
+  width: 33%;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 4%;
+}
+
+.positionFooter{
+  width: 100%;
+}
+
+.footerStyle {
+  background-color: var(--color-pink-primary);
+  color: var(--color-background-primary);
+  text-align: center;
+  line-height: 1.30rem;
+  padding-bottom: 2%;
+}
+
+.addressStyle a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--color-link-primary);
 }
