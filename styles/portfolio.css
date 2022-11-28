@@ -1,0 +1,68 @@
+h4 {
+    padding-bottom: 2%;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--color-pink-primary);
+}
+
+.subtitleStyle {
+    padding-bottom: 3%;
+}
+
+.centerContainer {
+    display: flex;
+}
+
+.leftContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.nameStyle {
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+}
+
+.imagePosition {
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.imageProjectStyle {
+    width: 100%;
+    border: solid 0.1rem var(--color-menu-hover);
+    border-radius: 0.5rem;
+}
+
+.rigthContainer {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.paragraphStyle {
+    padding-bottom: 2%;
+}
+
+.textLimiter {
+    word-wrap: break-word;
+    width: 80%;
+    text-align: justify;
+}
+
+.externalLinkStyle {
+    display: flex;
+}
+
+.externalLinkStyle p {
+    padding-top: 2%;
+    padding-left: 1%;
+}
