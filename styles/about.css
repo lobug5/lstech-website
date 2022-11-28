@@ -1,0 +1,51 @@
+h4 {
+    padding-bottom: 2%;
+}
+
+.subtitleStyle {
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+.centerContainer {
+    display: flex;
+}
+
+.leftContainer {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.nameStyle {
+    font-size: 1.25rem;
+    padding-bottom: 5%;
+}
+
+.imagePosition {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+}
+
+.imageProfileStyle {
+    width: 100%;
+}
+
+.rigthContainer {
+    width: 90%;
+}
+
+.paragraphStyle {
+    padding-bottom: 2%;
+}
+
+.textLimiter {
+    word-wrap: break-word;
+    width: 80%;
+    text-align: justify;
+}
+
+.secondText {
+    padding-bottom: 2%;
+}
