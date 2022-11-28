@@ -1,9 +1,9 @@
 :root {
   --color-pink-primary: #D8528F;
-  --color-background-primary: #fff;
-  --color-link-primary: hwb(340 78% 3%);
-  --color-menu-hover: #8b395d;
-  --color-top-container: #f5f5f5;
+  --color-white-primary: #fff;
+  --color-light-pink: hwb(340 78% 3%);
+  --color-purple-primary: #8b395d;
+  --color-light-gray: #f5f5f5;
 }
 
 * {
@@ -14,7 +14,7 @@
 }
 
 body {
-  background-color: var(--color-background-primary);
+  background-color: var(--color-white-primary);
 }
 
 h1 {
@@ -36,7 +36,7 @@ h2, h3 {
 
 h4 {
   padding-top: 2%;
-  color: var(--color-menu-hover);
+  color: var(--color-purple-primary);
 }
 
 .headerItems {
@@ -76,14 +76,14 @@ h4 {
 }
 
 .menu ul li a:hover {
-  color: var(--color-menu-hover);
-  border-bottom: solid 2px var(--color-menu-hover);
+  color: var(--color-purple-primary);
+  border-bottom: solid 2px var(--color-purple-primary);
 }
 
 .topContainer {
   width: 100%;
   background-color: var(--color-pink-primary);
-  color: var(--color-top-container);
+  color: var(--color-light-gray);
 }
 
 .titleStyle {
@@ -120,7 +120,7 @@ h4 {
 }
 
 .subtitleStyle {
-  color: var(--color-menu-hover);
+  color: var(--color-purple-primary);
 }
 
 .centerContainerPosition {
@@ -142,7 +142,7 @@ h4 {
 
 .footerStyle {
   background-color: var(--color-pink-primary);
-  color: var(--color-background-primary);
+  color: var(--color-white-primary);
   text-align: center;
   line-height: 1.30rem;
   padding-bottom: 2%;
@@ -151,5 +151,5 @@ h4 {
 .addressStyle a {
   text-align: center;
   text-decoration: none;
-  color: var(--color-link-primary);
+  color: var(--color-light-pink);
 }
