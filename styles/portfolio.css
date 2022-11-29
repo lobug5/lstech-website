@@ -40,6 +40,7 @@ a:hover {
     width: 100%;
     border: solid 0.1rem var(--color-menu-hover);
     border-radius: 0.5rem;
+    animation: goBackImage 1s 1 alternate;
 }
 
 .rigthContainer {
@@ -66,3 +67,12 @@ a:hover {
     padding-top: 2%;
     padding-left: 1%;
 }
+
+@keyframes goBackImage {
+    from {
+      transform: translateX(100px);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
