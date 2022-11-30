@@ -39,6 +39,10 @@ h4 {
   color: var(--color-purple-primary);
 }
 
+ul {
+  list-style-type: none;
+}
+
 .headerItems {
   width: 100%;
   height: auto;
@@ -58,6 +62,7 @@ h4 {
 
 .menu {
   width: 100%;
+  display: block;
 }
 
 .menu ul li {
@@ -78,6 +83,10 @@ h4 {
 .menu ul li a:hover {
   color: var(--color-purple-primary);
   border-bottom: solid 2px var(--color-purple-primary);
+}
+
+.dropDownIcon, .menuResponsiveness {
+  display: none;
 }
 
 .topContainer {
@@ -115,8 +124,11 @@ h4 {
 }
 
 .textContentStyle {
-  text-align: center;
+  width: 80%;
+  margin: 0 auto;
   font-size: 1.2rem;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .subtitleStyle {
@@ -155,7 +167,109 @@ h4 {
   color: var(--color-light-pink);
 }
 
+.footerTextStyle {
+  width: 80%;
+  word-wrap: break-word;
+}
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@media(max-width: 950px) {
+  h1 {
+    width: 80%;
+    font-size: 1.5rem;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 1.1rem;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .textStyle, .textContentStyle {
+    font-size: 1rem;
+    width: 80%;
+    word-wrap: break-word;
+    text-align: center;
+    margin: 0 auto;
+
+  }
+  .footerTextStyle  {
+    width: 80%;
+    font-size: 0.75rem;
+    word-wrap: break-word;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 700px) {
+  h1 {
+    font-size: 1.1rem;
+  }
+
+  .centerContainerPosition {
+    width: 100%;
+    display: block;
+  }
+
+  .boxContainerStyle {
+    width: 80%;
+    margin: 0 auto;
+    word-wrap: break-word;
+  }
+
+  .horizontalMenu {
+    display: none;
+  }
+
+  .menuResponsiveness{
+    display: flex;
+    padding-right: 5%;
+    padding-top: 1%;
+  }
+
+  .dropDownIcon {
+    display: block;
+  }
+
+  .dropDownMenu {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+  }
+
+  .dropdown-content a {
+    color: var(--color-pink-primary);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1
+  }
+
+  .dropDownMenu:hover .dropdown-content {
+    display: block;
+  }
+
+  .logoStyle {
+    width: 40%;
+    height: auto;
+  }
+
 }
