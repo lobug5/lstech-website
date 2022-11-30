@@ -170,6 +170,8 @@ ul {
 .footerTextStyle {
   width: 80%;
   word-wrap: break-word;
+  text-align: center;
+  margin: 0 auto;
 }
 
 @keyframes fadeIn {
@@ -207,7 +209,7 @@ ul {
   }
 }
 
-@media (min-width: 100px) and (max-width: 700px) {
+@media (min-width: 0px) and (max-width: 700px) {
   h1 {
     font-size: 1.1rem;
   }
@@ -229,7 +231,7 @@ ul {
 
   .menuResponsiveness{
     display: flex;
-    padding-right: 5%;
+    padding-right: 2%;
     padding-top: 1%;
   }
 

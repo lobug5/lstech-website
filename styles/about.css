@@ -49,3 +49,26 @@ h4 {
 .secondText {
     padding-bottom: 2%;
 }
+
+@media (min-width: 0px) and (max-width: 700px) {
+   .centerContainer {
+        width: 100%;
+        display: block;
+   }
+   .nameStyle {
+        font-size: 1rem;
+    }
+   .rigthContainer {
+        width: 80%;
+        word-wrap: break-word;
+        text-align: center;
+        margin: 0 auto;
+   }
+   .primaryText {
+        width: 80%;
+        margin: 0 auto;
+   }
+    .textLimiter {
+        width: 100%;
+    }
+}
