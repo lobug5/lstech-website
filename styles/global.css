@@ -112,6 +112,9 @@ ul {
   padding-left: 2%;
   line-height: 1.5rem;
   font-weight: 500;
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .imagePosition {

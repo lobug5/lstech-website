@@ -75,4 +75,21 @@ a:hover {
     to {
       transform: translateX(0);
     }
-  }
+}
+
+@media (min-width: 0px) and (max-width: 700px) {
+    .centerContainer {
+        width: 100%;
+        display: block;
+    }
+    .rigthContainer{
+        width: 80%;
+        word-wrap: break-word;
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 5%;
+    }
+    .textLimiter {
+        width: 100%;
+    }
+}
