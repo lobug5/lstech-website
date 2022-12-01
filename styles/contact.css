@@ -60,3 +60,22 @@ button:hover {
 .buttonPosition {
    width: 10%;
 }
+
+@media (min-width: 0px) and (max-width: 958px) {
+    .buttonContainer {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .buttonPosition{
+        width: auto;
+        padding-top: 1.5%;
+    }
+    .subtitleStyle {
+        width: 80%;
+        word-wrap: break-word;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
