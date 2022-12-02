@@ -27,3 +27,8 @@ Você pode encontrar este projeto nos seguintes lugares
 
     GitHub: https://github.com/lobug5/lstech-website
     Produção: https://lstech-website.vercel.app/
+
+## Autor
+
+Nome: Lorena Santana de Jesus
+RA: 12719111002
