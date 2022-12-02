@@ -18,7 +18,7 @@ Saiba mais: https://formsubmit.co/
  
     Obs.: A extensão Live Server foi utilizada com o objetivo de rodar o projeto em um pequeno servidor para que a integração do endpoint de e-mail funcione.
  
-# Dica:
+## Dica:
  Sinta-se à vontade para trocar o e-mail que está como parâmetro no action do formulário!
 
 ## Publicação
@@ -26,4 +26,4 @@ Saiba mais: https://formsubmit.co/
 Você pode encontrar este projeto nos seguintes lugares
 
     GitHub: https://github.com/lobug5/lstech-website
-    Vercel: https://lstech-website.vercel.app/
+    Produção: https://lstech-website.vercel.app/
