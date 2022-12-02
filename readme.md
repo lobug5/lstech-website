@@ -18,5 +18,6 @@ Saiba mais: https://formsubmit.co/
 
     Obs.: A extensão Live Server foi utilizada com o objetivo de rodar o projeto em um pequeno servidor para que a integração do endpoint de e-mail funcione.
 
-# Dica: Sinta-se a vontade para trocar o e-mail que esta como parâmetro no action do forumário!
+# Dica:
+ Sinta-se a vontade para trocar o e-mail que esta como parâmetro no action do forumário!
 
