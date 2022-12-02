@@ -20,3 +20,10 @@ Saiba mais: https://formsubmit.co/
  
 # Dica:
  Sinta-se à vontade para trocar o e-mail que está como parâmetro no action do formulário!
+
+## Publicação
+
+Você pode encontrar este projeto nos seguintes lugares
+
+    GitHub: https://github.com/lobug5/lstech-website
+    Vercel: https://lstech-website.vercel.app/
