@@ -1,0 +1,48 @@
+.subtitleStyle {
+    font-size: 1.3rem;
+    padding-top: 5%;
+}
+
+.centerContainer {
+    padding-top: 3%;
+    padding-bottom: 5%;
+    animation: fadeIn 8s;
+}
+
+.nameStyle {
+    font-size: 1.3rem;
+    padding-bottom: 5%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+
+@media (min-width: 0px) and (max-width: 958px) {
+    .subtitleStyle {
+        padding-top: 5%;
+        width: 80%;
+        word-wrap: break-word;
+        margin: 0 auto;
+    
+    }
+    .centerContainer {
+        width: 80%;
+        word-wrap: break-word;
+        padding-top: 3%;
+        padding-bottom: 5%;
+        margin: 0 auto;
+    
+    }
+    
+    .nameStyle {
+        font-size: 1.25rem;
+        padding-bottom: 5%;
+        padding-top: 4%;
+        text-align: center;
+    }
+}

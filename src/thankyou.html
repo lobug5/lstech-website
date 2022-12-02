@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/global.css">
-    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/thankyou.css">
     <script type="text/javascript" src="../scripts/contact.js" ></script>
-    <title>Contato</title>
+    <title>Obrigada</title>
 </head>
 <body>
     <section>
@@ -69,35 +69,15 @@
           <section>
             <header>
               <div class="subtitleStyle">
-                <h2>Formulário de contato</h2>
+                <h2>Muito Obrigado!</h2>
               </div>
             </header>
             <section>
                 <div class="centerContainer">
-                    <form class="formStyle" method="POST" id="form" action="https://formsubmit.co/loreesdev@gmail.com">
-                        <div class="fieldsContainer">
-                            <p class="titleFormStyle">Nome Completo</p>
-                            <input id="nameClient" required placeholder="Seu nome" type="text" name="name">
-                            <p class="titleFormStyle">E-mail</p>
-                            <input id="emailClient" required placeholder="seu@email.com"  type="email" name="email">
-                            <p class="titleFormStyle">Telefone</p>
-                            <input id="phoneClient"  required onkeydown="return phoneMask(event)" placeholder="999999999" type="tel" name="phone">
-                            <p class="titleFormStyle">Mensagem</p>
-                            <div class="textAreaPosition">
-                              <textarea class="textareaStyle" required name="message" placeholder="Escreva sua mensagem aqui!" id="messageClient" cols="30" rows="10"></textarea>
-                            </div>
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/thankyou.html">
-                        </div>
-                        <div class="buttonContainer">
-                            <div class="buttonPosition">
-                                <button onclick="confirmSubmitedForm()">Enviar</button>
-                            </div>
-                            <div class="buttonPosition">
-                                <button type="reset">Cancelar</button>
-                            </div>
-                        </div>
-                    </form>
+                    <p class="textContentStyle">Suas informações de contato foram recebidas com sucesso!</p>
+                    <p class="textContentStyle">Em breve uma pessoa da nossa equipe entrará em contato agendando um bate papo.</p>
+                    <p class="textContentStyle">Iremos lhe notificar atraves do email informado para encontrar um melhor horário de agendamento!</p>
+                    <h4 class="nameStyle">Até Breve!</h4>
                 </div>
             </section>
           </section>

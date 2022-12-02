@@ -61,6 +61,16 @@ button:hover {
    width: 10%;
 }
 
+.textAreaPosition {
+    width: 100%;
+    padding-left: 25%;
+}
+
+.textareaStyle {
+    width: 67%;
+    padding: 1%;
+}
+
 @media (min-width: 0px) and (max-width: 958px) {
     .buttonContainer {
         width: 100%;

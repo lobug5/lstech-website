@@ -23,16 +23,29 @@ function phoneMask(event) {
         event.target.value = phoneNumber;
     }
 
+
     if (!["Backspace", "Delete"].includes(computerKey)) {
         return false;
     }
-}
+
+} 
+    function formFilled() {
+        var form = document.getElementById("form");
+
+        if(form && form.length > 0){
+            formValidate();
+        }
+        else {
+            return;
+        }
+    }
 
 function formValidate() {
     const emailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;
     var name = document.getElementById("nameClient").value;
     var email = document.getElementById("emailClient").value;
     var phone = document.getElementById("phoneClient").value;
+    var message = document.getElementById("messageClient").value;
 
     if(!name || name.length < 5) {
         alert("Por favor informe o seu nome completo.");
@@ -51,12 +64,17 @@ function formValidate() {
         phone.focus();
         return;
     }
-}  
+    if(!message || message.length < 0) {
+        alert("Por favor escreva uma mensagem pra gente!");
+        message.focus();
+        return;
+    }
+}
 
 function confirmSubmitedForm() {
     var result = confirm("Deseja enviar suas informações?")
-    if(result == true){
-        formValidate();
+    if(result === true){
+        formFilled();
     }
     else {
         return;
