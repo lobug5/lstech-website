@@ -8,6 +8,8 @@ Este site contém 3 sessões que são a Sobre, Portifólio e Contato.
 
 No formulário de contato utilizo um endpoint gratuito chamado "formsubmit", onde ele envia para o email que esta sendo passado como parâmetro no action do form, as informaçãos preenchidas pelo usuário.
 
+Saiba mais: https://formsubmit.co/
+
 ## Instalação
 
     1- Baixe ou descompacte o projeto em sua máquina
