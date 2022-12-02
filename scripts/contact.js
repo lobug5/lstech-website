@@ -29,16 +29,17 @@ function phoneMask(event) {
     }
 
 } 
-    function formFilled() {
-        var form = document.getElementById("form");
 
-        if(form && form.length > 0){
-            formValidate();
-        }
-        else {
-            return;
-        }
+function formFilled() {
+    var form = document.getElementById("form");
+
+    if(form && form.length > 0){
+        formValidate();
     }
+    else {
+        return;
+    }
+}
 
 function formValidate() {
     const emailRegex = /^[a-z0-9.]+@[a-z0-9]+\.[a-z]+\.([a-z]+)?$/i;
